@@ -8,7 +8,7 @@ model = ConcreteModel()
 # DATA
 countries = ['DE', 'DK', 'SE']
 techs = ['Wind', 'PV', 'Gas', 'Hydro', 'Battery']
-eta = {'Wind' : 1, 'PV' : 1, 'Gas' : 0.4, 'Hydro' : 1, 'Battery' : 0.9}
+eta = {'Wind' : 1, 'PV' : 1, 'Gas' : 0.4, 'Hydro' : 1, 'Battery' : 0.9} #you could also formulate eta as a time series with the capacity factors for PV and wind
 
 discountrate = 0.05
 
