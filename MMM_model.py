@@ -20,7 +20,7 @@ def demandData():
     demand = {}
     for n in model.nodes:
         for t in model.time:
-            demand[n,t] = float(input_data['Load',n].loc[input_data.index == t])
+            demand[n,t] = float(#input data here#)
     return demand
 
 
